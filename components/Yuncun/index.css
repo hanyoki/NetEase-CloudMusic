@@ -1,0 +1,127 @@
+.yuncun .yuncun-nav{
+	width: 100%;
+	height: 90upx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 200upx;
+	font-size: 18px;
+	font-weight: 500;
+}
+.yuncun-nav .nav-square, .nav-follow{
+	width: 80upx;
+	height: 100%;
+	line-height: 90upx;
+}
+.selected{
+	font-size: 20px;
+	color: #ff0000;
+	border-bottom: 3px solid #ff0000; 
+}
+.yuncun-top-card{
+	width: 710upx;
+	height: 200upx;
+	margin: 20upx;
+	background-image: linear-gradient(to right, #fec4c4, #fcd200, #fec4c4);
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #FFFFFF;
+}
+.yuncun-top-card .top-card-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 20upx;
+}
+.top-card-left .card-left-title{
+	font-size: 20px;
+}
+.top-card-left .card-left-msg{
+	margin-top: 30upx;
+}
+.yuncun-top-card .top-card-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 10upx;
+}
+.top-card-right .card-right-title{
+	font-size: 20px;
+}
+.top-card-right .card-right-msg{
+	font-size: 40px;
+	margin-top: -20upx;
+	text-align: center;
+}
+.yuncun-video-card{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 25upx;
+	margin-top: 25upx;
+}
+.video-card{
+	width: 340upx;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30upx;
+}
+.video-card .video-card-image{
+	width: 100%;
+	height: 400upx;
+	border-radius: 10px 10px 0 0;
+}
+.video-card .video-card-comm{
+	width: 340upx;
+	height: 60upx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: #eeeeee;
+	line-height: 60upx;
+}
+.video-card-bottom{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #eeeeee;
+	padding-bottom: 10upx;
+	border-radius: 0 0 10px 10px;
+}
+.card-bottom-left{
+	display: flex;
+	align-items: center;
+}
+.card-bottom-left .card-bottom-name{
+	width: 130upx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 6upx;
+}
+.card-bottom-left .card-bottom-image{
+	width: 50upx;
+	height: 50upx;
+	border-radius: 50%;
+	margin-left: 5upx;
+}
+.card-bottom-right{
+	display: flex;
+	align-items: center;
+	margin-right: 6upx;
+}
+.last{
+	width: 100%;
+	height: 60upx;
+	text-align: center;
+	font-size: 12px;
+	color: #ababab;
+	margin-top: 45upx;
+}
+
+

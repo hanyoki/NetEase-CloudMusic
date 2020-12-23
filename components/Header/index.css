@@ -1,0 +1,35 @@
+.status-bar {
+      height: var(--status-bar-height);
+      width: 100%;
+  }
+.header{
+	width: 100%;
+	height: 90upx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30upx;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+.header .header-menu-icon{
+	width: 56upx;
+	font-size: 28px;
+}
+.header .header-menu{
+	padding: 0 70upx;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header .header-search-icon{
+	width: 40upx;
+	font-size: 20px;
+}
+.selected{
+	font-size: 20px;
+	color: #333333;
+	
+}
+

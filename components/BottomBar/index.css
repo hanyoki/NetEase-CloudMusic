@@ -1,0 +1,49 @@
+.bottom{
+	width: 100%;
+	height: 90upx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	padding: 0 20upx;
+	border-top: 1px solid #ededed;
+}
+.bottom .bottom-left{
+	display: flex;
+	align-items: center;
+	flex: 1;
+	margin-right: 20upx;
+}
+.bottom-left image{
+	width: 70upx;
+	height: 70upx;
+	margin-right: 20upx;
+}
+.bottom-left .audio-info{
+	width: 300upx;
+}
+.audio-name{
+	font-size: 15px;
+	width: 300upx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.audio-singer{
+	font-size: 11px;
+	color: #7d7d7d;
+	width: 300upx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.bottom .bottom-right{
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+}
+.bottom-right .btn-player, .btn-info{
+	width: 26px;
+	margin-right: 20upx;
+}
